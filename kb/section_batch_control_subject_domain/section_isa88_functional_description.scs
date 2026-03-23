@@ -86,8 +86,7 @@ recipe_building_block
 	[будівельний блок рецепту]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Сущность рецепта, существующая в библиотеке. Строительный блок можно параметризовать
-и используется при создании рецептов.]
+	[Сущность рецепта, существующая в библиотеке. Строительный блок можно параметризовать и использовать при создании рецептов.]
 	(* <- lang_ru;; *);
 	[A recipe entity that exists in a library. A building block can be parameterized
 and used when building recipes.]
