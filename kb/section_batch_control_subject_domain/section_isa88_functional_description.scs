@@ -595,11 +595,11 @@ equipment_procedural_element_id
 	[ідентифікатор процедурного елемента обладнання]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Обеспечивает уникальную идентификацию.]
+	[Обеспечивает уникальную идентификацию процедурного элемента оборудования.]
 	(* <- lang_ru;; *);
-	[Provides unique identification.]
+	[Provides equipment procedural element unique identification.]
 	(* <- lang_en;; *);
-	[Забезпечує унікальну ідентифікацію.]
+	[Забезпечує унікальну ідентифікацію процедурного елемента обладнання.]
 	(* <- lang_uk;; *);;
 	
 equipment_entity
@@ -633,11 +633,11 @@ equipment_endtity_id
 	[ідентифікатор кінцевого пристрою обладнання]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Обеспечивает уникальную идентификацию.]
+	[Обеспечивает уникальную идентификацию конечного устройства оборудования.]
 	(* <- lang_ru;; *);
-	[Provides unique identification.]
+	[Provides equipment entity unique identification.]
 	(* <- lang_en;; *);
-	[Забезпечує унікальну ідентифікацію.]
+	[Забезпечує унікальну ідентифікацію кінцевого пристрою обладнання.]
 	(* <- lang_uk;; *);;
 	
 equipment_level
@@ -693,11 +693,11 @@ property_id
 	[ідентифікатор об'єкта]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Обеспечивает уникальную идентификацию.]
+	[Обеспечивает уникальную идентификацию объекта.]
 	(* <- lang_ru;; *);
-	[Provides unique identification.]
+	[Provides property unique identification.]
 	(* <- lang_en;; *);
-	[Забезпечує унікальну ідентифікацію.]
+	[Забезпечує унікальну ідентифікацію об'єкта.]
 	(* <- lang_uk;; *);;
 	
 value_range
@@ -766,18 +766,18 @@ relation_id;;
 relation_id
 <- sc_node_class;
 => nrel_main_idtf:
-	[тип имущества оборудования]
+	[идентификатор имущества оборудования]
 	(* <- lang_ru;; *);
-	[equipment property type]
+	[equipment property id]
 	(* <- lang_en;; *);
-	[тип майна обладнання]
+	[ідентифікатор майна обладнання]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Обеспечивает уникальную идентификацию.]
+	[Обеспечивает уникальную идентификацию имущества оборудования.]
 	(* <- lang_ru;; *);
-	[Provides unique identification.]
+	[Provides equipment property unique identification.]
 	(* <- lang_en;; *);
-	[Забезпечує унікальну ідентифікацію.]
+	[Забезпечує унікальну ідентифікацію майна обладнання.]
 	(* <- lang_uk;; *);;
 	
 equipment_class
@@ -810,11 +810,11 @@ relation_id
 	[ідентифікатор відносин]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Обеспечивает уникальную идентификацию.]
+	[Обеспечивает уникальную идентификацию отношения.]
 	(* <- lang_ru;; *);
-	[Provides unique identification.]
+	[Provides relation unique identification.]
 	(* <- lang_en;; *);
-	[Забезпечує унікальну ідентифікацію.]
+	[Забезпечує унікальну ідентифікацію відносин.]
 	(* <- lang_uk;; *);;
 	
 recipe_function
@@ -1015,11 +1015,11 @@ parameter_id
 	[ідентифікатор параметра]
 	(* <- lang_uk;; *);
 => nrel_summary:
-	[Обеспечивает уникальную идентификацию.]
+	[Обеспечивает уникальную идентификацию параметра.]
 	(* <- lang_ru;; *);
-	[Provides unique identification.]
+	[Provides parameter unique identification.]
 	(* <- lang_en;; *);
-	[Забезпечує унікальну ідентифікацію.]
+	[Забезпечує унікальну ідентифікацію параметра.]
 	(* <- lang_uk;; *);;
 
 parameter_type
@@ -1303,11 +1303,11 @@ entry_id
     [ідентифікатор запису]
     (* <- lang_uk;; *);
 => nrel_summary:
-    [Предоставляет уникальную идентификацию.]
+    [Предоставляет уникальную идентификацию записи.]
     (* <- lang_ru;; *);
-    [Provides unique identification.]
+    [Provides entry unique identification.]
     (* <- lang_en;; *);
-    [Забезпечує унікальну ідентифікацію.]
+    [Забезпечує унікальну ідентифікацію запису.]
     (* <- lang_uk;; *);;
 
 new_value
@@ -1425,11 +1425,11 @@ executed_procedural_entity_id
     [ідентифікатор виконаної сутності]
     (* <- lang_uk;; *);
 => nrel_summary:
-    [Предоставляет уникальную идентификацию.]
+    [Предоставляет уникальную идентификацию выполненной процедурной сущности.]
     (* <- lang_ru;; *);
-    [Provides unique identification.]
+    [Provides executed procedural entity unique identification.]
     (* <- lang_en;; *);
-    [Забезпечує унікальну ідентифікацію.]
+    [Забезпечує унікальну ідентифікацію виконаної сутності.]
     (* <- lang_uk;; *);;
 
 procedural_entity_counter
@@ -1478,9 +1478,9 @@ report_id
     [ідентифікатор звіту]
     (* <- lang_uk;; *);
 => nrel_summary:
-    [Предоставляет уникальную идентификацию.]
+    [Предоставляет уникальную идентификацию отчёта.]
     (* <- lang_ru;; *);
-    [Provides unique identification.]
+    [Provides unique report identification.]
     (* <- lang_en;; *);
-    [Забезпечує унікальну ідентифікацію.]
+    [Забезпечує унікальну ідентифікацію звіта.]
     (* <- lang_uk;; *);;
