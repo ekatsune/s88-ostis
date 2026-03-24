@@ -301,7 +301,7 @@ direction_type
 equipment_level
 <- sc_node_class;
 => nrel_main_idtf:
-	[уровень обарудования]
+	[уровень оборудования]
 	(* <- lang_ru;; *);
 	[equipment level]
 	(* <- lang_en;; *);
@@ -318,7 +318,7 @@ equipment_level
 equipment_type
 <- sc_node_class;
 => nrel_main_idtf:
-	[тип обарудования]
+	[тип оборудования]
 	(* <- lang_ru;; *);
 	[equipment type]
 	(* <- lang_en;; *);
@@ -647,7 +647,7 @@ OperatorChange.]
 record_set_operator_comment
 <- sc_node_class;
 => nrel_main_idtf:
-	[набор записей коментария оператора]
+	[набор записей комментария оператора]
 	(* <- lang_ru;; *);
 	[record set operator comment]
 	(* <- lang_en;; *);

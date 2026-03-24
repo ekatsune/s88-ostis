@@ -81,12 +81,12 @@ process_stage
 process_operation
 <- sc_node_class;
 => nrel_main_idtf:
-[операция процесса]
-(* <- lang_ru;; *);
-[process operation]
-(* <- lang_en;; *);
-[технологічна операція]
-(* <- lang_uk;; *);
+	[операция процесса]
+	(* <- lang_ru;; *);
+	[process operation]
+	(* <- lang_en;; *);
+	[технологічна операція]
+	(* <- lang_uk;; *);
 <- rrel_key_sc_element:
 ...
 (*
