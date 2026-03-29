@@ -1,13 +1,13 @@
-section_isa88_functional_description
+subject_domain_isa88_functional_description
 <- sc_node_structure;
 => nrel_main_idtf:
-	[Раздел. Предметная область функционального описания]
+	[Предметная область функционального описания]
 	(* <- lang_ru;; *);
-	[Section. Subject domain of ​​functional purpose]
+	[Subject domain of ​​functional purpose]
 	(* <- lang_en;; *);
-	[Розділ. Предметна область функціонального призначення]
+	[Предметна область функціонального призначення]
 	(* <- lang_uk;; *);
-	[Kapitel. Themengebiet der Funktionsbeschreibung]
+	[Themengebiet der Funktionsbeschreibung]
 	(* <- lang_de;; *);
 <= nrel_section_decomposition: {
 section_isa88_functional_description_recipes
