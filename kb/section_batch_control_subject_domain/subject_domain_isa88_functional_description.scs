@@ -1,0 +1,31 @@
+subject_domain_isa88_functional_description
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Предметная область функционального описания]
+	(* <- lang_ru;; *);
+	[Subject domain of ​​functional purpose]
+	(* <- lang_en;; *);
+	[Предметна область функціонального призначення]
+	(* <- lang_uk;; *);
+	[Themengebiet der Funktionsbeschreibung]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+recipe_entity;
+selection_of_equipment;
+production_information;
+-> rrel_not_maximum_studied_object_class:
+batch_schedule_entry;
+schedule_parameter;
+schedule_relation;
+batch_specific_information;
+batch_history;
+common_information;
+executed_procedural_entity;
+batch_report;
+=> nrel_private_subject_domain:
+section_isa88_functional_description_recipes;
+section_isa88_functional_description_recipes_entity;
+section_isa88_functional_description_recipes_requirement;
+section_isa88_functional_description_batch_schedule;
+section_isa88_functional_description_production_information;
+section_isa88_exchange_information;;
