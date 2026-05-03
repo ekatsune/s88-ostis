@@ -45,15 +45,15 @@ process_cell_procedure
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_cell_procedure_ru.html"
+				"file://../content_html/explanation_for_process_cell_procedure_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_cell_procedure_en.html"
+				"file://../content_html/explanation_for_process_cell_procedure_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_cell_procedure_uk.html"
+				"file://../content_html/explanation_for_process_cell_procedure_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -84,15 +84,15 @@ unit_procedure
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_unit_procedure_ru.html"
+				"file://../content_html/explanation_for_unit_procedure_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_procedure_en.html"
+				"file://../content_html/explanation_for_unit_procedure_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_procedure_uk.html"
+				"file://../content_html/explanation_for_unit_procedure_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -116,15 +116,15 @@ operation
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_operation_ru.html"
+				"file://../content_html/explanation_for_operation_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_operation_en.html"
+				"file://../content_html/explanation_for_operation_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_operation_uk.html"
+				"file://../content_html/explanation_for_operation_uk.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);;
@@ -148,15 +148,15 @@ phase
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_phase_ru.html"
+				"file://../content_html/explanation_for_phase_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_phase_en.html"
+				"file://../content_html/explanation_for_phase_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_phase_uk.html"
+				"file://../content_html/explanation_for_phase_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -180,15 +180,15 @@ recipe_procedural_element
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_recipe_procedural_element_ru.html"
+				"file://../content_html/explanation_for_recipe_procedural_element_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_procedural_element_en.html"
+				"file://../content_html/explanation_for_recipe_procedural_element_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_procedural_element_uk.html"
+				"file://../content_html/explanation_for_recipe_procedural_element_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -212,15 +212,15 @@ equipment_procedural_element
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_equipment_procedural_element_ru.html"
+				"file://../content_html/explanation_for_equipment_procedural_element_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_procedural_element_en.html"
+				"file://../content_html/explanation_for_equipment_procedural_element_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_procedural_element_uk.html"
+				"file://../content_html/explanation_for_equipment_procedural_element_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -252,15 +252,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_recipe_procedure_ru.html"
+  				"file://../content_html/explanation_for_recipe_procedure_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_recipe_procedure_en.html"
+  				"file://../content_html/explanation_for_recipe_procedure_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_procedure_uk.html"
+				"file://../content_html/explanation_for_recipe_procedure_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -285,15 +285,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_recipe_unit_procedure_ru.html"
+  				"file://../content_html/explanation_for_recipe_unit_procedure_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_recipe_unit_procedure_en.html"
+  				"file://../content_html/explanation_for_recipe_unit_procedure_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_unit_procedure_uk.html"
+				"file://../content_html/explanation_for_recipe_unit_procedure_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -318,15 +318,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_recipe_operation_ru.html"
+  				"file://../content_html/explanation_for_recipe_operation_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_recipe_operation_en.html"
+  				"file://../content_html/explanation_for_recipe_operation_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_operation_uk.html"
+				"file://../content_html/explanation_for_recipe_operation_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -351,15 +351,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_recipe_phase_ru.html"
+  				"file://../content_html/explanation_for_recipe_phase_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_recipe_phase_en.html"
+  				"file://../content_html/explanation_for_recipe_phase_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_phase_uk.html"
+				"file://../content_html/explanation_for_recipe_phase_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -393,15 +393,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_equipment_procedure_ru.html"
+  				"file://../content_html/explanation_for_equipment_procedure_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_equipment_procedure_en.html"
+  				"file://../content_html/explanation_for_equipment_procedure_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_procedure_uk.html"
+				"file://../content_html/explanation_for_equipment_procedure_uk.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);;
@@ -426,15 +426,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_equipment_unit_procedure_ru.html"
+  				"file://../content_html/explanation_for_equipment_unit_procedure_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_equipment_unit_procedure_en.html"
+  				"file://../content_html/explanation_for_equipment_unit_procedure_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_unit_procedure_uk.html"
+				"file://../content_html/explanation_for_equipment_unit_procedure_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -459,15 +459,15 @@ equipment_procedural_element
   		...
   		(*
   		-> rrel_example:
-  				"file://content_html/explanation_for_equipment_operation_ru.html"
+  				"file://../content_html/explanation_for_equipment_operation_ru.html"
   			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-  				"file://content_html/explanation_for_equipment_operation_en.html"
+  				"file://../content_html/explanation_for_equipment_operation_en.html"
   			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_operation_uk.html"
+				"file://../content_html/explanation_for_equipment_operation_uk.html"
   			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -492,15 +492,15 @@ equipment_phase
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_equipment_phase_ru.html"
+				"file://../content_html/explanation_for_equipment_phase_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_phase_en.html"
+				"file://../content_html/explanation_for_equipment_phase_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_phase_uk.html"
+				"file://../content_html/explanation_for_equipment_phase_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -524,15 +524,15 @@ nrel_execution_order
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_nrel_execution_order_ru.html"
+				"file://../content_html/explanation_for_nrel_execution_order_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_nrel_execution_order_en.html"
+				"file://../content_html/explanation_for_nrel_execution_order_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_nrel_execution_order_uk.html"
+				"file://../content_html/explanation_for_nrel_execution_order_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;

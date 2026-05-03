@@ -30,15 +30,15 @@ process_element
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_element_ru.html"
+				"file://../content_html/explanation_for_process_element_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_element_en.html"
+				"file://../content_html/explanation_for_process_element_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_element_uk.html"
+				"file://../content_html/explanation_for_process_element_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -63,15 +63,15 @@ process_stage
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_stage_ru.html"
+				"file://../content_html/explanation_for_process_stage_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_stage_en.html"
+				"file://../content_html/explanation_for_process_stage_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_stage_uk.html"
+				"file://../content_html/explanation_for_process_stage_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -95,15 +95,15 @@ process_operation
 	...
 	(*
 	-> rrel_example:
-			"file://content_html/explanation_for_process_operation_ru.html"
+			"file://../content_html/explanation_for_process_operation_ru.html"
 		(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-			"file://content_html/explanation_for_process_operation_en.html"
+			"file://../content_html/explanation_for_process_operation_en.html"
 		(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-			"file://content_html/explanation_for_process_operation_uk.html"
+			"file://../content_html/explanation_for_process_operation_uk.html"
 		(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -127,15 +127,15 @@ process_action
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_action_ru.html"
+				"file://../content_html/explanation_for_process_action_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_action_en.html"
+				"file://../content_html/explanation_for_process_action_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_action_uk.html"
+				"file://../content_html/explanation_for_process_action_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -149,15 +149,15 @@ process_action
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_process_action_ru.html"
+				"file://../content_html/note_for_process_action_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_process_action_en.html"
+				"file://../content_html/note_for_process_action_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_process_action_uk.html"
+				"file://../content_html/note_for_process_action_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;

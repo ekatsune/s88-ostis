@@ -39,15 +39,15 @@ equipment_entity
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_equipment_entity_ru.html"
+				"file://../content_html/explanation_for_equipment_entity_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_entity_en.html"
+				"file://../content_html/explanation_for_equipment_entity_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);			
-				"file://content_html/explanation_for_equipment_entity_uk.html"
+				"file://../content_html/explanation_for_equipment_entity_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -72,15 +72,15 @@ process_cell
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_cell_ru.html"
+				"file://../content_html/explanation_for_process_cell_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_cell_en.html"
+				"file://../content_html/explanation_for_process_cell_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_cell_uk.html"
+				"file://../content_html/explanation_for_process_cell_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -94,15 +94,15 @@ process_cell
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_process_cell_ru.html"
+				"file://../content_html/note_for_process_cell_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_process_cell_en.html"
+				"file://../content_html/note_for_process_cell_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_process_cell_uk.html"
+				"file://../content_html/note_for_process_cell_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -126,15 +126,15 @@ unit
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_unit_ru.html"
+				"file://../content_html/explanation_for_unit_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_en.html"
+				"file://../content_html/explanation_for_unit_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_uk.html"
+				"file://../content_html/explanation_for_unit_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -148,15 +148,15 @@ unit
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_unit_ru.html"
+				"file://../content_html/note_for_unit_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_unit_en.html"
+				"file://../content_html/note_for_unit_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_unit_uk.html"
+				"file://../content_html/note_for_unit_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -180,15 +180,15 @@ equipment_module
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_equipment_module_ru.html"
+				"file://../content_html/explanation_for_equipment_module_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_module_en.html"
+				"file://../content_html/explanation_for_equipment_module_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_module_uk.html"
+				"file://../content_html/explanation_for_equipment_module_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -202,15 +202,15 @@ equipment_module
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_equipment_module_ru.html"
+				"file://../content_html/note_for_equipment_module_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_equipment_module_en.html"
+				"file://../content_html/note_for_equipment_module_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_equipment_module_uk.html"
+				"file://../content_html/note_for_equipment_module_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -234,15 +234,15 @@ control_module
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_control_module_ru.html"
+				"file://../content_html/explanation_for_control_module_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_control_module_en.html"
+				"file://../content_html/explanation_for_control_module_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_control_module_uk.html"
+				"file://../content_html/explanation_for_control_module_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -256,15 +256,15 @@ control_module
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_control_module_ru.html"
+				"file://../content_html/note_for_control_module_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_control_module_en.html"
+				"file://../content_html/note_for_control_module_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_control_module_uk.html"
+				"file://../content_html/note_for_control_module_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -295,15 +295,15 @@ enterprise
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_enterprise_ru.html"
+				"file://../content_html/explanation_for_enterprise_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_enterprise_en.html"
+				"file://../content_html/explanation_for_enterprise_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_enterprise_uk.html"
+				"file://../content_html/explanation_for_enterprise_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -334,15 +334,15 @@ site
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_site_ru.html"
+				"file://../content_html/explanation_for_site_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_site_en.html"
+				"file://../content_html/explanation_for_site_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_site_uk.html"
+				"file://../content_html/explanation_for_site_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -356,15 +356,15 @@ site
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_site_ru.html"
+				"file://../content_html/note_for_site_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_site_en.html"
+				"file://../content_html/note_for_site_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_site_uk.html"
+				"file://../content_html/note_for_site_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -388,15 +388,15 @@ area
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_area_ru.html"
+				"file://../content_html/explanation_for_area_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_area_en.html"
+				"file://../content_html/explanation_for_area_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_area_uk.html"
+				"file://../content_html/explanation_for_area_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -410,15 +410,15 @@ area
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_area_ru.html"
+				"file://../content_html/note_for_area_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_area_en.html"
+				"file://../content_html/note_for_area_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_area_uk.html"
+				"file://../content_html/note_for_area_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -442,15 +442,15 @@ equipment_relation
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_equipment_relation_ru.html"
+				"file://../content_html/explanation_for_equipment_relation_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_relation_en.html"
+				"file://../content_html/explanation_for_equipment_relation_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_relation_uk.html"
+				"file://../content_html/explanation_for_equipment_relation_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -475,15 +475,15 @@ nrel_contains
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_nrel_contains_ru.html"
+				"file://../content_html/explanation_for_nrel_contains_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_nrel_contains_en.html"
+				"file://../content_html/explanation_for_nrel_contains_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_nrel_contains_uk.html"
+				"file://../content_html/explanation_for_nrel_contains_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;

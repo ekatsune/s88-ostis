@@ -19,15 +19,15 @@ common_resource
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_common_resource_ru.html"
+				"file://../content_html/explanation_for_common_resource_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_common_resource_en.html"
+				"file://../content_html/explanation_for_common_resource_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_common_resource_uk.html"
+				"file://../content_html/explanation_for_common_resource_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -41,15 +41,15 @@ common_resource
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_common_resource_ru.html"
+				"file://../content_html/note_for_common_resource_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_common_resource_en.html"
+				"file://../content_html/note_for_common_resource_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_common_resource_uk.html"
+				"file://../content_html/note_for_common_resource_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -73,15 +73,15 @@ exclusive_use_resource
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_exclusive_use_resource_ru.html"
+				"file://../content_html/explanation_for_exclusive_use_resource_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_exclusive_use_resource_en.html"
+				"file://../content_html/explanation_for_exclusive_use_resource_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_exclusive_use_resource_uk.html"
+				"file://../content_html/explanation_for_exclusive_use_resource_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -105,15 +105,15 @@ shared_use_resource
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_shared_use_resource_ru.html"
+				"file://../content_html/explanation_for_shared_use_resource_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_shared_use_resource_en.html"
+				"file://../content_html/explanation_for_shared_use_resource_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_shared_use_resource_uk.html"
+				"file://../content_html/explanation_for_shared_use_resource_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -143,15 +143,15 @@ recipe_entity
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_recipe_entity_ru.html"
+				"file://../content_html/explanation_for_recipe_entity_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_entity_en.html"
+				"file://../content_html/explanation_for_recipe_entity_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_entity_uk.html"
+				"file://../content_html/explanation_for_recipe_entity_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -175,15 +175,15 @@ recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_recipe_ru.html"
+				"file://../content_html/explanation_for_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_en.html"
+				"file://../content_html/explanation_for_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_uk.html"
+				"file://../content_html/explanation_for_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -197,15 +197,15 @@ recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_recipe_ru.html"
+				"file://../content_html/note_for_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_recipe_en.html"
+				"file://../content_html/note_for_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_recipe_uk.html"
+				"file://../content_html/note_for_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -229,15 +229,15 @@ general_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_general_recipe_ru.html"
+				"file://../content_html/explanation_for_general_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_general_recipe_en.html"
+				"file://../content_html/explanation_for_general_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_general_recipe_uk.html"
+				"file://../content_html/explanation_for_general_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -261,15 +261,15 @@ site_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_site_recipe_ru.html"
+				"file://../content_html/explanation_for_site_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_site_recipe_en.html"
+				"file://../content_html/explanation_for_site_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_site_recipe_uk.html"
+				"file://../content_html/explanation_for_site_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -283,15 +283,15 @@ site_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_site_recipe_ru.html"
+				"file://../content_html/note_for_site_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_site_recipe_en.html"
+				"file://../content_html/note_for_site_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_site_recipe_uk.html"
+				"file://../content_html/note_for_site_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -315,15 +315,15 @@ master_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_master_recipe_ru.html"
+				"file://../content_html/explanation_for_master_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_master_recipe_en.html"
+				"file://../content_html/explanation_for_master_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_master_recipe_uk.html"
+				"file://../content_html/explanation_for_master_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -347,15 +347,15 @@ control_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_control_recipe_ru.html"
+				"file://../content_html/explanation_for_control_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_control_recipe_en.html"
+				"file://../content_html/explanation_for_control_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_control_recipe_uk.html"
+				"file://../content_html/explanation_for_control_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -379,15 +379,15 @@ unit_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_unit_recipe_ru.html"
+				"file://../content_html/explanation_for_unit_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_recipe_en.html"
+				"file://../content_html/explanation_for_unit_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_recipe_uk.html"
+				"file://../content_html/explanation_for_unit_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -401,15 +401,15 @@ unit_recipe
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_unit_recipe_ru.html"
+				"file://../content_html/note_for_unit_recipe_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_unit_recipe_en.html"
+				"file://../content_html/note_for_unit_recipe_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_unit_recipe_uk.html"
+				"file://../content_html/note_for_unit_recipe_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -433,15 +433,15 @@ formula
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_formula_ru.html"
+				"file://../content_html/explanation_for_formula_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_formula_en.html"
+				"file://../content_html/explanation_for_formula_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_formula_uk.html"
+				"file://../content_html/explanation_for_formula_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -465,15 +465,15 @@ header
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_header_ru.html"
+				"file://../content_html/explanation_for_header_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_header_en.html"
+				"file://../content_html/explanation_for_header_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_header_uk.html"
+				"file://../content_html/explanation_for_header_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -521,15 +521,15 @@ line
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_line_ru.html"
+				"file://../content_html/explanation_for_line_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_line_en.html"
+				"file://../content_html/explanation_for_line_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_line_uk.html"
+				"file://../content_html/explanation_for_line_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -553,15 +553,15 @@ procedure
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_procedure_ru.html"
+				"file://../content_html/explanation_for_procedure_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_procedure_en.html"
+				"file://../content_html/explanation_for_procedure_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_procedure_uk.html"
+				"file://../content_html/explanation_for_procedure_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -575,15 +575,15 @@ procedure
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_procedure_ru.html"
+				"file://../content_html/note_for_procedure_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_procedure_en.html"
+				"file://../content_html/note_for_procedure_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_procedure_uk.html"
+				"file://../content_html/note_for_procedure_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -614,15 +614,15 @@ batch
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_batch_ru.html"
+				"file://../content_html/explanation_for_batch_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_batch_en.html"
+				"file://../content_html/explanation_for_batch_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_batch_uk.html"
+				"file://../content_html/explanation_for_batch_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -636,15 +636,15 @@ batch
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_batch_ru.html"
+				"file://../content_html/note_for_batch_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_batch_en.html"
+				"file://../content_html/note_for_batch_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_batch_uk.html"
+				"file://../content_html/note_for_batch_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -668,15 +668,15 @@ process
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_ru.html"
+				"file://../content_html/explanation_for_process_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_en.html"
+				"file://../content_html/explanation_for_process_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_uk.html"
+				"file://../content_html/explanation_for_process_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -700,15 +700,15 @@ process_input
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_input_ru.html"
+				"file://../content_html/explanation_for_process_input_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_input_en.html"
+				"file://../content_html/explanation_for_process_input_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_input_uk.html"
+				"file://../content_html/explanation_for_process_input_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -732,15 +732,15 @@ process_output
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_output_ru.html"
+				"file://../content_html/explanation_for_process_output_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_output_en.html"
+				"file://../content_html/explanation_for_process_output_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_output_uk.html"
+				"file://../content_html/explanation_for_process_output_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -764,15 +764,15 @@ process_parameter
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_parameter_ru.html"
+				"file://../content_html/explanation_for_process_parameter_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_parameter_en.html"
+				"file://../content_html/explanation_for_process_parameter_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_parameter_uk.html"
+				"file://../content_html/explanation_for_process_parameter_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -796,15 +796,15 @@ state
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_state_ru.html"
+				"file://../content_html/explanation_for_state_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_state_en.html"
+				"file://../content_html/explanation_for_state_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_state_uk.html"
+				"file://../content_html/explanation_for_state_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -818,15 +818,15 @@ state
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_state_ru.html"
+				"file://../content_html/note_for_state_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_state_en.html"
+				"file://../content_html/note_for_state_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_state_uk.html"
+				"file://../content_html/note_for_state_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -850,15 +850,15 @@ lot
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_lot_ru.html"
+				"file://../content_html/explanation_for_lot_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_lot_en.html"
+				"file://../content_html/explanation_for_lot_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_lot_uk.html"
+				"file://../content_html/explanation_for_lot_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -872,15 +872,15 @@ lot
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_lot_ru.html"
+				"file://../content_html/note_for_lot_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_lot_en.html"
+				"file://../content_html/note_for_lot_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_lot_uk.html"
+				"file://../content_html/note_for_lot_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -904,15 +904,15 @@ mode
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_mode_ru.html"
+				"file://../content_html/explanation_for_mode_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_mode_en.html"
+				"file://../content_html/explanation_for_mode_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_mode_uk.html"
+				"file://../content_html/explanation_for_mode_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -943,15 +943,15 @@ path
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_path_ru.html"
+				"file://../content_html/explanation_for_path_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_path_en.html"
+				"file://../content_html/explanation_for_path_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_path_uk.html"
+				"file://../content_html/explanation_for_path_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -975,15 +975,15 @@ batch_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_batch_control_ru.html"
+				"file://../content_html/explanation_for_batch_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_batch_control_en.html"
+				"file://../content_html/explanation_for_batch_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_batch_control_uk.html"
+				"file://../content_html/explanation_for_batch_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1007,15 +1007,15 @@ procedural_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_procedural_control_ru.html"
+				"file://../content_html/explanation_for_procedural_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_procedural_control_en.html"
+				"file://../content_html/explanation_for_procedural_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_procedural_control_uk.html"
+				"file://../content_html/explanation_for_procedural_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1039,15 +1039,15 @@ coordination_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_coordination_control_ru.html"
+				"file://../content_html/explanation_for_coordination_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_coordination_control_en.html"
+				"file://../content_html/explanation_for_coordination_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_coordination_control_uk.html"
+				"file://../content_html/explanation_for_coordination_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1071,15 +1071,15 @@ process_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_control_ru.html"
+				"file://../content_html/explanation_for_process_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_control_en.html"
+				"file://../content_html/explanation_for_process_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_control_uk.html"
+				"file://../content_html/explanation_for_process_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1103,15 +1103,15 @@ recipe_management
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_recipe_management_ru.html"
+				"file://../content_html/explanation_for_recipe_management_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_management_en.html"
+				"file://../content_html/explanation_for_recipe_management_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_recipe_management_uk.html"
+				"file://../content_html/explanation_for_recipe_management_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1135,15 +1135,15 @@ basic_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_basic_control_ru.html"
+				"file://../content_html/explanation_for_basic_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_basic_control_en.html"
+				"file://../content_html/explanation_for_basic_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_basic_control_uk.html"
+				"file://../content_html/explanation_for_basic_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1157,15 +1157,15 @@ basic_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/note_for_basic_control_ru.html"
+				"file://../content_html/note_for_basic_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_basic_control_en.html"
+				"file://../content_html/note_for_basic_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/note_for_basic_control_uk.html"
+				"file://../content_html/note_for_basic_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1189,15 +1189,15 @@ process_management
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_process_management_ru.html"
+				"file://../content_html/explanation_for_process_management_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_management_en.html"
+				"file://../content_html/explanation_for_process_management_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_process_management_uk.html"
+				"file://../content_html/explanation_for_process_management_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1221,15 +1221,15 @@ unit_supervision
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_unit_supervision_ru.html"
+				"file://../content_html/explanation_for_unit_supervision_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_supervision_en.html"
+				"file://../content_html/explanation_for_unit_supervision_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_unit_supervision_uk.html"
+				"file://../content_html/explanation_for_unit_supervision_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1253,15 +1253,15 @@ equipment_control
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_equipment_control_ru.html"
+				"file://../content_html/explanation_for_equipment_control_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_control_en.html"
+				"file://../content_html/explanation_for_equipment_control_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_equipment_control_uk.html"
+				"file://../content_html/explanation_for_equipment_control_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
@@ -1285,15 +1285,15 @@ exception_handling
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation_for_exception_handling_ru.html"
+				"file://../content_html/explanation_for_exception_handling_ru.html"
 			(* <- lang_ru;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_exception_handling_en.html"
+				"file://../content_html/explanation_for_exception_handling_en.html"
 			(* <- lang_en;;
 			   => nrel_format: format_html;;
 			*);
-				"file://content_html/explanation_for_exception_handling_uk.html"
+				"file://../content_html/explanation_for_exception_handling_uk.html"
 			(* <- lang_uk;;
 			   => nrel_format: format_html;;
 			*);;
