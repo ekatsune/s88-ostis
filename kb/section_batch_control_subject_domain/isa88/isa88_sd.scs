@@ -1239,7 +1239,7 @@ unit_supervision
 equipment_control
 <- sc_node_class;
 => nrel_main_idtf:
-	[Оборудовательное управление]
+	[оборудовательное управление]
 	(* <- lang_ru;; *);
 	[equipment control]
 	(* <- lang_en;; *);
