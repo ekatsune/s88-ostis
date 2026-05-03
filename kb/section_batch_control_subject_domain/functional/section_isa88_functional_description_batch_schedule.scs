@@ -1,0 +1,289 @@
+section_isa88_functional_description_batch_schedule
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область функционального описания плана произодства партии]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​functional description batch schedule]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область функціонального опису плана виробництва партії]
+	(* <- lang_uk;; *);
+	[Kapitel. Themengebiet der Funktionsbeschreibung des Chargenplan]
+	(* <- lang_de;; *);
+-> rrel_not_maximum_studied_object_class:
+batch_schedule_entry;
+schedule_parameter;
+schedule_relation;;
+
+batch_schedule_entry
+<- sc_node_class;
+=> nrel_main_idtf:
+	[запись расписания партии]
+	(* <- lang_ru;; *);
+	[batch schedule entry]
+	(* <- lang_en;; *);
+	[введення розкладу партії]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Запланированный элемент, который представляет собой единичную процедуру в партии, полную партию или набор партий (например: кампанию).]
+	(* <- lang_ru;; *);
+	[A scheduled item that represents a unit procedure in a batch, a complete batch, or a set of batches (e.g., a campaign).]
+	(* <- lang_en;; *);
+	[Запланований елемент, який представляє собою одиничну процедуру в партії, повну партію або набір партій (наприклад: кампанію).]
+	(* <- lang_uk;; *);
+-> rrel_not_maximum_studied_object_class:
+id;
+level;
+batch_size;
+schedule;
+resource_usage;
+status;;
+
+id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор]
+	(* <- lang_ru;; *);
+	[id]
+	(* <- lang_en;; *);
+	[ідентифікатор]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Предоставляет уникальный идентификатор (например: фактический номер кампании, партии, пакета, идентификатор процедуры).]
+	(* <- lang_ru;; *);
+	[Provides unique identification (e.g., actual campaign, lot, batch ID, procedural entity ID).]
+	(* <- lang_en;; *);
+	[Надає унікальний ідентифікатор (наприклад: фактичний номер кампанії, партії, пакета, ідентифікатор процедури).]
+	(* <- lang_uk;; *);;
+
+level
+<- sc_node_class;
+=> nrel_main_idtf:
+	[уровень]
+	(* <- lang_ru;; *);
+	[lavel]
+	(* <- lang_en;; *);
+	[рівень]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет уровень иерархии (например: кампания, партия, единичная процедура).]
+	(* <- lang_ru;; *);
+	[Specifies the hierarchy level (e.g., campaign, batch, unit procedure).]
+	(* <- lang_en;; *);
+	[Вказує рівень ієрархії (наприклад: кампанія, партія, одинична процедура).]
+	(* <- lang_uk;; *);;
+
+schedule
+<- sc_node_class;
+=> nrel_main_idtf:
+	[график]
+	(* <- lang_ru;; *);
+	[schedule]
+	(* <- lang_en;; *);
+	[розклад]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет запланированные времена выполнения (начало / конец).]
+	(* <- lang_ru;; *);
+	[Defines scheduled execution times (start/stop).]
+	(* <- lang_en;; *);
+	[Визначає заплановані часи виконання (початок / завершення).]
+	(* <- lang_uk;; *);;
+	
+resource_usage
+<- sc_node_class;
+=> nrel_main_idtf:
+	[использование ресурсов]
+	(* <- lang_ru;; *);
+	[resource usage]
+	(* <- lang_en;; *);
+	[використання ресурсів]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Указывает использование ресурсов для этой записи в графике.]
+	(* <- lang_ru;; *);
+	[Specifies resource usage for this schedule entry.]
+	(* <- lang_en;; *);
+	[Вказує використання ресурсів для цього запису в розкладі.]
+	(* <- lang_uk;; *);;
+	
+status
+<- sc_node_class;
+=> nrel_main_idtf:
+	[статус]
+	(* <- lang_ru;; *);
+	[status]
+	(* <- lang_en;; *);
+	[статус]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет статус графика (например: предложенный для оценки (например, анализ "что будет, если"), запланированный, согласованный, начатый, завершенный).]
+	(* <- lang_ru;; *);
+	[Specifies schedule status (e.g., proposed for evaluation (such as what-if analysis), planned, committed, started, completed).]
+	(* <- lang_en;; *);
+	[Визначає статус розкладу (наприклад, запропонований для оцінки (наприклад: аналіз "що буде, якщо"), запланований, узгоджений, початий, завершений).]
+	(* <- lang_uk;; *);;
+
+schedule_parameter
+<- sc_node_class;
+=> nrel_main_idtf:
+	[параметр расписания]
+	(* <- lang_ru;; *);
+	[schedule parameter]
+	(* <- lang_en;; *);
+	[параметр розкладу]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Формула значений, которые должны быть переданы в расписания партии и из них.]
+	(* <- lang_ru;; *);
+	[Formula values that are to be communicated to and from batch schedule entries.]
+	(* <- lang_en;; *);
+	[Значення формули, які мають бути передані від та до записів розкладу партії.]
+	(* <- lang_uk;; *);
+-> rrel_not_maximum_studied_object_class:
+parameter_id;
+parameter_type;
+description;
+engineering_units;
+value;
+scaled;
+usage;;
+
+parameter_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор параметра]
+	(* <- lang_ru;; *);
+	[parameter id]
+	(* <- lang_en;; *);
+	[ідентифікатор параметра]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Обеспечивает уникальную идентификацию параметра.]
+	(* <- lang_ru;; *);
+	[Provides parameter unique identification.]
+	(* <- lang_en;; *);
+	[Забезпечує унікальну ідентифікацію параметра.]
+	(* <- lang_uk;; *);;
+
+parameter_type
+<- sc_node_class;
+=> nrel_main_idtf:
+	[тип параметра]
+	(* <- lang_ru;; *);
+	[parameter type]
+	(* <- lang_en;; *);
+	[тип параметра]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Включает в себя способ интерпретации значения (например: константа, ссылка или уравнение).]
+	(* <- lang_ru;; *);
+	[Includes how the Value is interpreted (e.g., constant, reference, or equation).]
+	(* <- lang_en;; *);
+	[Включає спосіб інтерпретації значення (наприклад,: константа, посилання або рівняння).]
+	(* <- lang_uk;; *);;
+
+description
+<- sc_node_class;
+=> nrel_main_idtf:
+	[описание]
+	(* <- lang_ru;; *);
+	[description]
+	(* <- lang_en;; *);
+	[опис]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Описывает параметр или использование параметра.]
+	(* <- lang_ru;; *);
+	[Describes the parameter or use of the parameter.]
+	(* <- lang_en;; *);
+	[Описує параметр або використання параметра.]
+	(* <- lang_uk;; *);;
+	
+value
+<- sc_node_class;
+=> nrel_main_idtf:
+	[значення]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Содержит значение параметра. Если это связь, Значение содержит уравнение,
+	форму, правило отложения или что-то еще, что объединяет связанные параметры. Если Значение -
+	параметр строительного блока, этот атрибут будет содержать значение по умолчанию.]
+	(* <- lang_ru;; *);
+	[Contains the parameter value. If it is a relation, Value contains the equation,
+	form, deferral rule, or whatever ties the related parameters together. If Value is
+	a building block parameter, this attribute will hold the default value.]
+	(* <- lang_en;; *);
+	[Містить значення параметра. Якщо це відношення, значення містить рівняння,
+	форму, правило відкладення або що-небудь інше, що об'єднує пов'язані параметри. Якщо значення -
+	параметр будівельного блоку, цей атрибут буде містити значення за замовчуванням.]
+	(* <- lang_uk;; *);;
+
+scaled
+<- sc_node_class;
+=> nrel_main_idtf:
+	[масштабирование]
+	(* <- lang_ru;; *);
+	[scaled]
+	(* <- lang_en;; *);
+	[масштабованне]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет правило масштабирования. Простейший случай: масштабировано или не масштабировано с учетом размера ссылочной партии.]
+	(* <- lang_ru;; *);
+	[Defines the scaling rule. Simplest case: scaled or not scaled with batch reference size.]
+	(* <- lang_en;; *);
+	[Визначає правило масштабування. Найпростіший випадок: масштабовано або не масштабовано з врахуванням розміру партії посилань.]
+	(* <- lang_uk;; *);;
+
+usage
+<- sc_node_class;
+=> nrel_main_idtf:
+	[использование]
+	(* <- lang_ru;; *);
+	[usage]
+	(* <- lang_en;; *);
+	[використання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет параметр как входной, выходной или процессовый параметр.]
+	(* <- lang_ru;; *);
+	[Identifies the parameter as a process input, process output, or process parameter.]
+	(* <- lang_en;; *);
+	[Визначає параметр як вхідний, вихідний або процесовий параметр.]
+	(* <- lang_uk;; *);;
+
+schedule_relation
+<- sc_not_relation;
+=> nrel_main_idtf:
+	[соотношение графиков]
+	(* <- lang_ru;; *);
+	[schedule relation]
+	(* <- lang_en;; *);
+	[співвідношення розкладу]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Представление связей между записями расписания (например, необходимая очистка линии, уборка между запланированными элементами, спецификации последовательных отношений внутри процедуры).]
+	(* <- lang_ru;; *);
+        [A representation of relations between schedule entries (e.g., required line clearance, cleaning between scheduled items, specifications of sequential relations within a procedure).]
+	(* <- lang_en;; *);
+	[Уявлення про зв'язки між записами розкладу (наприклад, необхідна очистка лінії, прибирання між запланованими елементами, специфікації послідовних відносин всередині процедури).]
+	(* <- lang_uk;; *);
+-> rrel_not_maximum_studied_object_class:
+execute_order;;
+
+execute_order
+<- sc_node_class;
+=> nrel_main_idtf:
+	[порядок выполнения]
+	(* <- lang_ru;; *);
+	[execute order]
+	(* <- lang_en;; *);
+	[порядок виконання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет последовательность обработки нескольких записей расписания относительно друг друга.]
+	(* <- lang_ru;; *);
+	[Specifies in what sequence multiple schedule entries should be processed relative to each other.]
+	(* <- lang_en;; *);
+	[Визначає послідовність обробки кількох записів розкладу відносно один одного.]
+	(* <- lang_uk;; *);;

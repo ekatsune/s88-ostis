@@ -1,0 +1,170 @@
+section_isa88_functional_description_recipes_entity
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область функционального описания объекта рецептов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​functional description recipies entitiy]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область функціонального опису об'єкта рецептів]
+	(* <- lang_uk;; *);
+	[Kapitel. Themengebiet der Funktionsbeschreibung des Rezeptobjekts]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+recipe_entity;
+=> nrel_inclusion:
+general_recipe_entity;
+site_recipe_entity;
+master_recipe_entity;
+control_recipe_entity;;
+
+general_recipe_entity
+<- sc_node_class;
+=> nrel_main_idtf:
+	[общий объект рецепта]
+	(* <- lang_ru;; *);
+	[general recipe entity]
+	(* <- lang_en;; *);
+	[загальний об'єкт рецепта]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Вся информация по общему рецепту или рецепту сайта, компонент общего рецепта или рецепта сайта или блок для создания общего рецепта или рецепта сайта.]
+	(* <- lang_ru;; *);
+	[All of a general or site recipe, a component of a general or site recipe, or a building block for creation of a general or site recipe.]
+	(* <- lang_en;; *);
+	[Вся інформація за загальним рецептом або рецептом сайту, компонент загального рецепту або рецепту сайту або блок для створення загального рецепту або рецепту сайту.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+scale_reference;;
+
+site_recipe_entity
+<- sc_node_class;
+=> nrel_main_idtf:
+	[объект рецепта сайта]
+	(* <- lang_ru;; *);
+	[site recipe entity]
+	(* <- lang_en;; *);
+	[об'єкт рецепту сайту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Весь рецепт сайта, компонент рецепта сайта или строительный блок для создания рецепта сайта.]
+	(* <- lang_ru;; *);
+	[All of a site recipe, a component of a site recipe, or a building block for creation
+of a site recipe.]
+	(* <- lang_en;; *);
+	[Весь рецепт сайту, компонент рецепту сайту чи будівельний блок для створення рецепту сайту.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+scale_reference;;
+
+master_recipe_entity
+<- sc_node_class;
+=> nrel_main_idtf:
+	[объект мастер-рецепта]
+	(* <- lang_ru;; *);
+	[master recipe entity]
+	(* <- lang_en;; *);
+	[об'єкт майстер-рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Вся технологическая рецептура, ее компонент или строительный блок для
+создание мастер-рецепта.]
+	(* <- lang_ru;; *);
+	[All of a master recipe, a component of a master recipe, or a building block for
+creation of a master recipe.]
+	(* <- lang_en;; *);
+	[Вся технологічна рецептура, її компонент чи будівельний блок для створення майстер-рецепту.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+scale_reference;
+process_cell_id;;
+
+scale_reference
+<- sc_node_class;
+=> nrel_main_idtf:
+	[эталонный масштаб]
+	(* <- lang_ru;; *);
+	[scale reference]
+	(* <- lang_en;; *);
+	[еталонний масштаб]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет эталонную шкалу для значений параметров.]
+	(* <- lang_ru;; *);
+	[Defines a reference scale for the parameter values.]
+	(* <- lang_en;; *);
+	[Визначає еталонну шкалу для значень параметрів.]
+	(* <- lang_uk;; *);;
+
+process_cell_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор ячейки процесса]
+	(* <- lang_ru;; *);
+	[process cell id]
+	(* <- lang_en;; *);
+	[ідентифікатор комірки процесу]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует категорию оборудования, для которой был определен объект рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the equipment category for which the recipe entity was defined.]
+	(* <- lang_en;; *);
+	[Ідентифікує категорію обладнання, для якої було визначено об'єкт рецепту.]
+	(* <- lang_uk;; *);;
+
+control_recipe_entity
+<- sc_node_class;
+=> nrel_main_idtf:
+	[контрольный объект рецепта]
+	(* <- lang_ru;; *);
+	[control recipe entity]
+	(* <- lang_en;; *);
+	[контрольний об'єкт рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Объект рецепта, который полностью или частично является частью управляющего рецепта.]
+	(* <- lang_ru;; *);
+	[A recipe entity that is all of or a part of a control recipe.]
+	(* <- lang_en;; *);
+	[Об'єкт рецепту, який повністю або частково є частиною рецепту, що управляє.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+batch_id;
+batch_size;
+information_status;;
+
+batch_id
+<- sc_node_class;
+=> nrel_main_idtf:
+    [идентификатор партии]
+    (* <- lang_ru;; *);
+    [batch id]
+    (* <- lang_en;; *);
+    [ідентифікатор партії]
+    (* <- lang_uk;; *);
+=> nrel_summary:
+    [Определяет фактический идентификатор партии.]
+    (* <- lang_ru;; *);
+    [Defines the actual Batch ID.]
+    (* <- lang_en;; *);
+    [Визначає фактичний ідентифікатор партії.]
+    (* <- lang_uk;; *);;
+
+batch_size
+<- sc_node_class;
+=> nrel_main_idtf:
+	[размер пакета]
+	(* <- lang_ru;; *);
+	[batch size]
+	(* <- lang_en;; *);
+	[розмір пакету]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет запрошенный размер или масштабный коэффициент для партии на основе масштабного коэффициента для партии, определенного в мастер-рецепте.]
+	(* <- lang_ru;; *);
+	[Defines the requested size or scale factor for the batch, based on the scale factor for the batch as defined in the master recipe.]
+	(* <- lang_en;; *);
+	[Визначає запитаний розмір чи масштабний коефіцієнт партії на основі масштабного коефіцієнта партії, визначеного в мастер-рецепте.]
+	(* <- lang_uk;; *);;
+	
+	

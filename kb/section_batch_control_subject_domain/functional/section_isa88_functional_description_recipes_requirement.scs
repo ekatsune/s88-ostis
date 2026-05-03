@@ -1,0 +1,292 @@
+section_isa88_functional_description_recipes_requirement
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область функционального описания оборудования рецептов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​functional description recipes requirement]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область функціонального опису обладнання рецептів]
+	(* <- lang_uk;; *);
+	[Kapitel. Themengebiet der Funktionsbeschreibung von Rezepturgeräten]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+selection_of_equipment;
+=> nrel_inclusion:
+equipment_requirement;
+equipment_procedural_element;
+equipment_entity;
+equipment_property;
+equipment_property_type;
+equipment_relation;
+equipment_class;;
+
+equipment_requirement
+<- sc_node_class;
+=> nrel_main_idtf:
+	[требования к оборудованию]
+	(* <- lang_ru;; *);
+	[equipment requirement]
+	(* <- lang_en;; *);
+	[вимоги до обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Представляет требование к оборудованию, указанное в объекте рецепта.]
+	(* <- lang_ru;; *);
+	[Represents an equipment requirement as specified in the recipe entity.]
+	(* <- lang_en;; *);
+	[Подає вимогу до обладнання, зазначену в об'єкті рецепту.]
+	(* <- lang_uk;; *);;
+
+equipment_procedural_element
+<- sc_node_class;
+=> nrel_summary:
+	[Процедурный элемент, связанный с частью оборудования.]
+	(* <- lang_ru;; *);
+	[A procedural element that is associated with a piece of equipment.]
+	(* <- lang_en;; *);
+	[Процедурний елемент, пов'язаний із частиною обладнання.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+equipment_procedural_element_id;
+recipe_version;
+version_date;
+approval_date;
+recipe_author;
+recipe_approval;
+version_description;
+level_class_equivalence;
+mode;
+state;;
+
+equipment_procedural_element_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор процедурного элемента оборудования]
+	(* <- lang_ru;; *);
+	[equipment procedural element id]
+	(* <- lang_en;; *);
+	[ідентифікатор процедурного елемента обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Обеспечивает уникальную идентификацию процедурного элемента оборудования.]
+	(* <- lang_ru;; *);
+	[Provides equipment procedural element unique identification.]
+	(* <- lang_en;; *);
+	[Забезпечує унікальну ідентифікацію процедурного елемента обладнання.]
+	(* <- lang_uk;; *);;
+
+equipment_entity
+<- sc_node_class;
+=> nrel_summary:
+	[Коллекция оборудования и оборудования для физической обработки и управления.
+элемент управления, сгруппированный для выполнения определенной функции управления или набора функции управления.]
+	(* <- lang_ru;; *);
+	[A collection of physical processing and control equipment and equipment
+control that is grouped together to perform a certain control function or set of
+control functions.]
+	(* <- lang_en;; *);
+	[Колекція обладнання та обладнання для фізичної обробки та управління.
+елемент керування, згрупований для виконання певної функції керування або набору
+функції керування.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+equipment_endtity_id;
+equipment_level;
+mode;
+state;;
+
+equipment_endtity_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор конечного устройства оборудования]
+	(* <- lang_ru;; *);
+	[equipment entity id]
+	(* <- lang_en;; *);
+	[ідентифікатор кінцевого пристрою обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Обеспечивает уникальную идентификацию конечного устройства оборудования.]
+	(* <- lang_ru;; *);
+	[Provides equipment entity unique identification.]
+	(* <- lang_en;; *);
+	[Забезпечує унікальну ідентифікацію кінцевого пристрою обладнання.]
+	(* <- lang_uk;; *);;
+
+equipment_property
+<- sc_node_class;
+=> nrel_main_idtf:
+	[имущество оборудования]
+	(* <- lang_ru;; *);
+	[equipment property]
+	(* <- lang_en;; *);
+	[майно обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует свойство, которое предоставляет объект или класс оборудования. Эти
+свойства зависят от приложения.]
+	(* <- lang_ru;; *);
+	[Identifies a property that the equipment entity or class supplies. These
+properties are application specific.]
+	(* <- lang_en;; *);
+	[Ідентифікує властивість, яку надає об'єкт чи клас обладнання. Ці
+властивості залежать від програми.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+property_id;
+value;
+value_range;
+engineering_units;
+version_description;;
+
+property_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор объекта]
+	(* <- lang_ru;; *);
+	[property id]
+	(* <- lang_en;; *);
+	[ідентифікатор об'єкта]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Обеспечивает уникальную идентификацию объекта.]
+	(* <- lang_ru;; *);
+	[Provides property unique identification.]
+	(* <- lang_en;; *);
+	[Забезпечує унікальну ідентифікацію об'єкта.]
+	(* <- lang_uk;; *);;
+value_range
+<- sc_node_class;
+=> nrel_main_idtf:
+	[диапазон значений]
+	(* <- lang_ru;; *);
+	[value range]
+	(* <- lang_en;; *);
+	[діапазон значень]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет пределы или ограничения, связанные со значением.]
+	(* <- lang_ru;; *);
+	[Defines limits or constraints that are related to Value.]
+	(* <- lang_en;; *);
+	[Визначає межі чи обмеження, пов'язані зі значенням.]
+	(* <- lang_uk;; *);;
+	
+engineering_units
+<- sc_node_class;
+=> nrel_main_idtf:
+	[инженерные подразделения]
+	(* <- lang_ru;; *);
+	[engineering units]
+	(* <- lang_en;; *);
+	[інженерні підрозділи]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет инженерные единицы объекта недвижимости.]
+	(* <- lang_ru;; *);
+	[Defines the engineering units of the property.]
+	(* <- lang_en;; *);
+	[Визначає інженерні одиниці об'єкту нерухомості.]
+	(* <- lang_uk;; *);;
+
+equipment_property_type
+<- sc_node_class;
+=> nrel_main_idtf:
+	[тип имущества оборудования]
+	(* <- lang_ru;; *);
+	[equipment property type]
+	(* <- lang_en;; *);
+	[тип майна обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Общий класс атрибутов оборудования.]
+	(* <- lang_ru;; *);
+	[The general class of equipment attributes.]
+	(* <- lang_en;; *);
+	[Загальний клас атрибутів обладнання.]
+	(* <- lang_uk;; *);;
+
+equipment_relation
+<- sc_node_class;
+=> nrel_summary:
+	[Представление связей между оборудованием, но также может использоваться для представления других видов отношений между оборудованием.]
+	(* <- lang_ru;; *);
+	[A representation of the connections between equipment, but may also be used to represent other kinds of relations between equipment.]
+	(* <- lang_en;; *);
+	[Уявлення про зв'язки між обладнанням, але також може використовуватися для подання інших видів відносин між обладнанням.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+equipment_property_id;;
+
+equipment_property_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор имущества оборудования]
+	(* <- lang_ru;; *);
+	[equipment property id]
+	(* <- lang_en;; *);
+	[ідентифікатор майна обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Обеспечивает уникальную идентификацию имущества оборудования.]
+	(* <- lang_ru;; *);
+	[Provides equipment property unique identification.]
+	(* <- lang_en;; *);
+	[Забезпечує унікальну ідентифікацію майна обладнання.]
+	(* <- lang_uk;; *);;
+
+equipment_class
+<- sc_node_class;
+=> nrel_main_idtf:
+	[класс оборудования]
+	(* <- lang_ru;; *);
+	[equipment class]
+	(* <- lang_en;; *);
+	[клас обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Класс объекта оборудования.]
+	(* <- lang_ru;; *);
+	[An equipment entity class.]
+	(* <- lang_en;; *);
+	[Клас об'єкту обладнання.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+equipment_class_id;
+equipment_level;;
+
+equipment_class_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор класса оборудования]
+	(* <- lang_ru;; *);
+	[equipment class id]
+	(* <- lang_en;; *);
+	[ідентифікатор класу обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует элемент оборудования, который может быть связан с записью.]
+	(* <- lang_ru;; *);
+	[Identifies an equipment element that may be associated with the entry.]
+	(* <- lang_en;; *);
+	[Ідентифікує елемент обладнання, який може бути пов'язаний із записом.]
+	(* <- lang_uk;; *);;
+
+equipment_level
+<- sc_node_class;
+=> nrel_main_idtf:
+	[уровень оборудования]
+	(* <- lang_ru;; *);
+	[equipment level]
+	(* <- lang_en;; *);
+	[рівень обладнання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Указывает физический уровень иерархии.]
+	(* <- lang_ru;; *);
+	[Specifies the physical hierarchy level.]
+	(* <- lang_en;; *);
+	[Вказує фізичний рівень ієрархії.]
+	(* <- lang_uk;; *);;
+	
+
+

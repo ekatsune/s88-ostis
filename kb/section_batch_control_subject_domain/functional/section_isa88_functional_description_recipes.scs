@@ -1,0 +1,348 @@
+section_isa88_functional_description_recipes
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область функционального описания рецептов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​functional purpose of recipes]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область функціонального призначення рецептів]
+	(* <- lang_uk;; *);
+	[Kapitel. Themenbereich des Funktionszwecks von Rezepten]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+recipe_entity;
+=> nrel_inclusion:
+recipe;
+recipe_component;
+recipe_building_block;;
+
+recipe
+=> nrel_inclusion:
+recipe_id;
+recipe_version;
+version_date;
+approval_date;
+effective_date;
+expiration_date;
+product_id;
+recipe_author;
+recipe_approval;
+version_description;
+information_status;;
+
+recipe_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор рецепта]
+	(* <- lang_ru;; *);
+	[recipe id]
+	(* <- lang_en;; *);
+	[ідентифікатор рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Обозначает рецепт. В сочетании с "версией рецепта" определяет
+уникальный экземпляр рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the recipe. When combined with the "RecipeVersion," defines a
+unique instance of a recipe.]
+	(* <- lang_en;; *);
+	[Позначає рецепт. У поєднанні з "версією рецепту" визначає
+унікальний екземпляр рецепта.]
+	(* <- lang_uk;; *);;
+
+recipe_version
+<- sc_node_class;
+=> nrel_main_idtf:
+	[версия рецепта]
+	(* <- lang_ru;; *);
+	[recipe version]
+	(* <- lang_en;; *);
+	[версія рецепта]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет версию рецепта. В сочетании с "идентификатором рецепта" определяет
+уникальный экземпляр рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the version of a recipe. When combined with a "RecipeID," defines a
+unique instance of a recipe.]
+	(* <- lang_en;; *);
+	[Визначає версію рецепту. У поєднанні з "ідентифікатором рецепту" визначає
+унікальний екземпляр рецепта.]
+	(* <- lang_uk;; *);;
+	
+version_date
+<- sc_node_class;
+=> nrel_main_idtf:
+	[дата версии]
+	(* <- lang_ru;; *);
+	[version date]
+	(* <- lang_en;; *);
+	[дата версії]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет дату и время создания этой версии рецепта или
+модифицированный.]
+	(* <- lang_ru;; *);
+	[Identifies the date and time that this version of the recipe was created or
+modified.]
+	(* <- lang_en;; *);
+	[Визначає дату та час створення цієї версії рецепту або
+модифікований.]
+	(* <- lang_uk;; *);;
+	
+approval_date
+<- sc_node_class;
+=> nrel_main_idtf:
+	[дата утверждения]
+	(* <- lang_ru;; *);
+	[approval date]
+	(* <- lang_en;; *);
+	[дата затвердження]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет дату и время утверждения этой версии рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the date and time that this version of the recipe was approved.]
+	(* <- lang_en;; *);
+	[Визначає дату та час затвердження цієї версії рецепту.]
+	(* <- lang_uk;; *);;
+
+effective_date
+<- sc_node_class;
+=> nrel_main_idtf:
+	[дата вступления в силу]
+	(* <- lang_ru;; *);
+	[effective date]
+	(* <- lang_en;; *);
+	[дата вступу в силу]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет самую раннюю дату и время, когда можно использовать эту версию рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the earliest date and time that this version of the recipe may be used.]
+	(* <- lang_en;; *);
+	[Визначає ранню дату і час, коли можна використовувати цю версію рецепту.]
+	(* <- lang_uk;; *);;
+
+expiration_date
+<- sc_node_class;
+=> nrel_main_idtf:
+	[дата окончания срока]
+	(* <- lang_ru;; *);
+	[expiration date]
+	(* <- lang_en;; *);
+	[дата закінчення терміну]
+	(* <- lang_uk;; *);<- sc_node_class;
+=> nrel_main_idtf:
+	[объект мастер-рецепта]
+	(* <- lang_ru;; *);
+	[master recipe entity]
+	(* <- lang_en;; *);
+	[об'єкт майстер-рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Вся технологическая рецептура, ее компонент или строительный блок для
+создание мастер-рецепта.]
+	(* <- lang_ru;; *);
+	[All of a master recipe, a component of a master recipe, or a building block for
+creation of a master recipe.]
+	(* <- lang_en;; *);
+	[Вся технологічна рецептура, її компонент чи будівельний блок для створення майстер-рецепту.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+scale_reference;
+=> nrel_summary:
+	[Определяет дату и время истечения срока действия этой версии рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the date and time that this version of the recipe expires.]
+	(* <- lang_en;; *);
+	[Визначає дату та час закінчення терміну дії цієї версії рецепту.]
+	(* <- lang_uk;; *);;
+
+product_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[код товара]
+	(* <- lang_ru;; *);
+	[product id]
+	(* <- lang_en;; *);
+	[код товару]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует продукт или семейство продуктов, которые будут созданы в результате выполнения этого варианта рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the product or product family that would be created by execution of
+this version of the recipe.]
+	(* <- lang_en;; *);
+	[Ідентифікує продукт або сімейство продуктів, які будуть створені в результаті виконання цього варіанта рецепта.]
+	(* <- lang_uk;; *);;
+
+recipe_author
+<- sc_node_class;
+=> nrel_main_idtf:
+	[автор рецепта]
+	(* <- lang_ru;; *);
+	[recipe author]
+	(* <- lang_en;; *);
+	[автор рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует человека или систему, создавшую эту версию рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the person or system that authored this version of the recipe.]
+	(* <- lang_en;; *);
+	[Ідентифікує людину або систему, яка створила цю версію рецепту.]
+	(* <- lang_uk;; *);;
+	
+recipe_approval
+<- sc_node_class;
+=> nrel_main_idtf:
+	[утверждение рецепта]
+	(* <- lang_ru;; *);
+	[recipe approval]
+	(* <- lang_en;; *);
+	[затвердження рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует человека или систему, утвердившую эту версию рецепта.]
+	(* <- lang_ru;; *);
+	[Identifies the person or system that approved this version of the recipe.]
+	(* <- lang_en;; *);
+	[Ідентифікує людину чи систему, яка затвердила цю версію рецепту.]
+	(* <- lang_uk;; *);;
+
+version_description
+<- sc_node_class;
+=> nrel_main_idtf:
+	[описание версии]
+	(* <- lang_ru;; *);
+	[version description]
+	(* <- lang_en;; *);
+	[опис версії]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Описывает эту версию рецепта и/или продукта.]
+	(* <- lang_ru;; *);
+	[Describes this version of the recipe and/or product.]
+	(* <- lang_en;; *);
+	[Описує цю версію рецепту та/або продукту.]
+	(* <- lang_uk;; *);;
+
+information_status
+<- sc_node_class;
+=> nrel_main_idtf:
+	[информационный статус]
+	(* <- lang_ru;; *);
+	[information status]
+	(* <- lang_en;; *);
+	[інформаційний статус]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет статус информации.]
+	(* <- lang_ru;; *);
+	[Defines the Status of the information.]
+	(* <- lang_en;; *);
+	[Визначає статус інформації.]
+	(* <- lang_uk;; *);;
+
+recipe_component
+<- sc_node_class;
+=> nrel_main_idtf:
+	[компонент рецепта]
+	(* <- lang_ru;; *);
+	[recipe component]
+	(* <- lang_en;; *);
+	[компонент рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Сущность рецепта, являющаяся частью рецепта или строительного блока.]
+	(* <- lang_ru;; *);
+	[A recipe entity that is part of a recipe or building block.]
+	(* <- lang_en;; *);
+	[Сутність рецепту є частиною рецепту або будівельного блоку.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+level_class_equivalence;
+re_use_recipe;;
+
+re_use_recipe
+<- sc_node_class;
+=> nrel_main_idtf:
+	[повторное использование рецепта]
+	(* <- lang_ru;; *);
+	[reusing a recipe]
+	(* <- lang_en;; *);
+	[повторне використання рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет, является ли компонент рецепта копией строительного блока или ссылкой на него.]
+	(* <- lang_ru;; *);
+	[Defines if the recipe component is a copy of a building block or a reference to
+it.]
+	(* <- lang_en;; *);
+	[Визначає, є компонент рецепта копією будівельного блоку або посиланням на нього.]
+	(* <- lang_uk;; *);;
+	
+recipe_building_block
+<- sc_node_class;
+=> nrel_main_idtf:
+	[строительный блок рецепта]
+	(* <- lang_ru;; *);
+	[recipe building block]
+	(* <- lang_en;; *);
+	[будівельний блок рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Сущность рецепта, существующая в библиотеке. Строительный блок можно параметризовать и использовать при создании рецептов.]
+	(* <- lang_ru;; *);
+	[A recipe entity that exists in a library. A building block can be parameterized
+and used when building recipes.]
+	(* <- lang_en;; *);
+	[Сутність рецепту, що існує у бібліотеці. Будівельний блок можна налаштувати
+та використовується при створенні рецептів.]
+	(* <- lang_uk;; *);
+=> nrel_inclusion:
+recipe_version;
+version_date;
+approval_date;
+recipe_author;
+recipe_approval;
+version_description;
+level_class_equivalence;
+usage_constraint;
+information_status;
+recipe_function;;
+
+usage_constraint
+<- sc_node_class;
+=> nrel_main_idtf:
+	[ограничение использования]
+	(* <- lang_ru;; *);
+	[usage constraint]
+	(* <- lang_en;; *);
+	[обмеження використання]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет другие правила, определяющие использование.]
+	(* <- lang_ru;; *);
+	[Defines other rules that determine the usage.]
+	(* <- lang_en;; *);
+	[Визначає інші правила, які визначають використання.]
+	(* <- lang_uk;; *);;
+	
+recipe_function
+<- sc_node_class;
+=> nrel_main_idtf:
+	[функция рецепта]
+	(* <- lang_ru;; *);
+	[recipe function]
+	(* <- lang_en;; *);
+	[функція рецепту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет, как выполняется сущность рецепта.]
+	(* <- lang_ru;; *);
+	[Defines how the recipe entity is executed.]
+	(* <- lang_en;; *);
+	[Визначає, як виконується суть рецепту.]
+	(* <- lang_uk;; *);;
