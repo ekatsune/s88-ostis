@@ -1,0 +1,52 @@
+section_isa88_exchange_information_bxt_enumeration
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область информационного обмена BXT перечислений.]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​information exchange BXT enumeration.]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область інформаційного обміну BXT перерахувань.]
+	(* <- lang_uk;; *);
+	[Kapitel. Themenbereich Inhalt der BXT-Enum.]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+information_exchange;
+-> rrel_not_maximum_studied_object_class:
+enum_set;
+enum_value;
+enum_string;
+description;;
+
+enum_value
+<- sc_node_class;
+=> nrel_main_idtf:
+	[значение перечисления]
+	(* <- lang_ru;; *);
+	[enum value]
+	(* <- lang_en;; *);
+	[значення перерахування]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет числовое значение, связанное с элементом перечисления.]
+	(* <- lang_ru;; *);
+	[Specifies the numerical value associated with the enumeration member.]
+	(* <- lang_en;; *);
+	[Визначає числове значення, пов'язане із елементом перерахування.]
+	(* <- lang_uk;; *);;
+	
+enum_string
+<- sc_node_class;
+=> nrel_main_idtf:
+	[строка перечисления]
+	(* <- lang_ru;; *);
+	[enum string]
+	(* <- lang_en;; *);
+	[рядок перерахування]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет связанный текст для элемента перечисления.]
+	(* <- lang_ru;; *);
+	[Defines the associated text for the enumeration member.]
+	(* <- lang_en;; *);
+	[Визначає пов'язаний текст елемента перерахування.]
+	(* <- lang_uk;; *);;

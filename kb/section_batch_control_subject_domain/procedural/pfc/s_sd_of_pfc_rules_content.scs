@@ -12,8 +12,8 @@ sd_of_pfc_rules
 <- structure;
 -> rrel_maximum_studied_object_class: pfc_rule;
 -> rrel_explored_relation:
-	nrel_mapping;		//не описано
-	nrel_isomorphic;;	//не описано
+	nrel_mapping;		
+	nrel_isomorphic;;	
 
 sc_node_class -> pfc_rule;;
 pfc_rule

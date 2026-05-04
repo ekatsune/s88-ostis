@@ -1,0 +1,66 @@
+section_isa88_exchange_information_bxt
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область обмена информацией BXT]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​information exchange BXT]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область обміну інформацією BXT]
+	(* <- lang_uk;; *);
+	[Kapitel. Themenbereich der Austausch von Informationen]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+information_exchange;
+-> rrel_not_maximum_studied_object_class:
+exchange_id;
+exchange_value;;
+
+exchange_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор обмена]
+	(* <- lang_ru;; *);
+	[exchange-ID]
+	(* <- lang_en;; *);
+	[Ідентифікатор обміну]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует элемент обмена.]
+	(* <- lang_ru;; *);
+	[Identifies the exchange element.]
+	(* <- lang_en;; *);
+	[Ідентифікує елемент обміну.]
+	(* <- lang_uk;; *);;
+	
+exchange_value
+=> nrel_main_idtf:
+	[значение обмена]
+	(* <- lang_ru;; *);
+	[exchange value]
+	(* <- lang_en;; *);
+	[значення обміну]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Определяет ценность обмениваемой информации.]
+	(* <- lang_ru;; *);
+	[Identifies the value for the exchanged information.]
+	(* <- lang_en;; *);
+	[Визначає цінність обмінюваної інформації.]
+	(* <- lang_uk;; *);;
+	
+information_exchange
+<- sc_node_class;
+=> nrel_main_idtf:
+	[информационный обмен]
+	(* <- lang_ru;; *);
+	[information exchange]
+	(* <- lang_en;; *);
+	[інформаційний обмін]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Процесс передачи данных между различными системами или устройствами с целью обеспечения обмена информацией и согласованности данных.]
+	(* <- lang_ru;; *);
+	[The process of transferring data between different systems or devices to ensure information exchange and data consistency.]
+	(* <- lang_en;; *);
+	[Процес передачі між різними системами чи пристроями з метою забезпечення обміну інформацією та узгодженості даних.]
+	(* <- lang_uk;; *);;

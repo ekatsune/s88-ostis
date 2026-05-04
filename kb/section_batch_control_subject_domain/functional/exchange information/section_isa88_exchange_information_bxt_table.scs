@@ -1,0 +1,107 @@
+section_isa88_exchange_information_bxt_table
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область информационного обмена содержимым таблицы BXT.]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of ​​information exchange BXT table contents.]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область інформаційного обміну вмістом таблиць BXT.]
+	(* <- lang_uk;; *);
+	[Kapitel. Themenbereich Inhalt der BXT-Tabelle zum Informationsaustausch.]
+	(* <- lang_de;; *);
+-> rrel_maximum_studied_object_class:
+information_exchange;
+-> rrel_not_maximum_studied_object_class:
+schema;
+delimiter;
+tool_id;
+tool_version;
+tool_schema;;
+
+schema
+<- sc_node_class;
+=> nrel_main_idtf:
+	[схема]
+	(* <- lang_ru;; *);
+	[schema]
+	(* <- lang_en;; *);
+	[схема]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентифицирует элемент обмена.]
+	(* <- lang_ru;; *);
+	[Identifies the exchange element.]
+	(* <- lang_en;; *);
+	[Ідентифікує елемент обміну.]
+	(* <- lang_uk;; *);;
+	
+delimiter
+<- sc_node_class;
+=> nrel_main_idtf:
+	[разделитель]
+	(* <- lang_ru;; *);
+	[delimeter]
+	(* <- lang_en;; *);
+	[роздільник]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Символ, который используется для различения имен элементов в
+Иерархическое имя элемента рецепта.]
+	(* <- lang_ru;; *);
+	[The character that is used to differentiate between the element names in the
+recipe element hierarchical name.]
+	(* <- lang_en;; *);
+	[Символ, який використовується для розрізнення імен елементів у
+ієрархічна назва елемента рецепта.]
+	(* <- lang_uk;; *);;
+	
+tool_id
+<- sc_node_class;
+=> nrel_main_idtf:
+	[идентификатор инструмента]
+	(* <- lang_ru;; *);
+	[tool ID]
+	(* <- lang_en;; *);
+	[ідентифікатор інструменту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Идентификатор инструмента, создавшего таблицы обмена.]
+	(* <- lang_ru;; *);
+	[The identification of the tool that created the exchange tables.]
+	(* <- lang_en;; *);
+	[Ідентифікатар інструмента, який створив таблиці обміну.]
+	(* <- lang_uk;; *);;
+	
+tool_version
+<- sc_node_class;
+=> nrel_main_idtf:
+	[версия инструмента]
+	(* <- lang_ru;; *);
+	[tool version]
+	(* <- lang_en;; *);
+	[версія інструменту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Версия инструмента, создавшего таблицы обмена.]
+	(* <- lang_ru;; *);
+	[The version of the tool that created the exchange tables.]
+	(* <- lang_en;; *);
+	[Версія інструмента, який створив таблиці обміну.]
+	(* <- lang_uk;; *);;
+	
+tool_schema
+<- sc_node_class;
+=> nrel_main_idtf:
+	[схема инструмента]
+	(* <- lang_ru;; *);
+	[tool schema]
+	(* <- lang_en;; *);
+	[схема інструменту]
+	(* <- lang_uk;; *);
+=> nrel_summary:
+	[Настраиваемая версия схемы, созданная с помощью инструмента.]
+	(* <- lang_ru;; *);
+	[The customized schema version created by the tool.]
+	(* <- lang_en;; *);
+	[Налаштована версія схеми, створена інструментом.]
+	(* <- lang_uk;; *);;

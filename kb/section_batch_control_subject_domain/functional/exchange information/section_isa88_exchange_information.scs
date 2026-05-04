@@ -1,0 +1,22 @@
+section_isa88_exchange_information
+<- sc_node_structure;
+=> nrel_main_idtf:
+	[Раздел. Предметная область обмена информацией]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of information exchange]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область обміну інформацією]
+	(* <- lang_uk;; *);
+	[Kapitel. Themengebiet der Austausch von Informationen]
+	(* <- lang_de;; *);
+<= nrel_section_decomposition: {
+section_isa88_exchange_information_bxt
+(* => nrel_section_base_order: section_isa88_exchange_information_bxt_table;; *);
+section_isa88_exchange_information_bxt_table
+(* => nrel_section_base_order: section_isa88_exchange_information_bxt_enumeration_set;; *);
+section_isa88_exchange_information_bxt_enumeration_set
+(* => nrel_section_base_order: section_isa88_exchange_information_bxt_enumeration;; *);
+section_isa88_exchange_information_bxt_enumeration
+(* => nrel_section_base_order: section_isa88_exchange_information_bxt_master_recipe;; *);
+section_isa88_exchange_information_bxt_master_recipe
+};;
