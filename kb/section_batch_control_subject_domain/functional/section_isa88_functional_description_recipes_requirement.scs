@@ -170,23 +170,6 @@ value_range
 	(* <- lang_en;; *);
 	[Визначає межі чи обмеження, пов'язані зі значенням.]
 	(* <- lang_uk;; *);;
-	
-engineering_units
-<- sc_node_class;
-=> nrel_main_idtf:
-	[инженерные подразделения]
-	(* <- lang_ru;; *);
-	[engineering units]
-	(* <- lang_en;; *);
-	[інженерні підрозділи]
-	(* <- lang_uk;; *);
-=> nrel_summary:
-	[Определяет инженерные единицы объекта недвижимости.]
-	(* <- lang_ru;; *);
-	[Defines the engineering units of the property.]
-	(* <- lang_en;; *);
-	[Визначає інженерні одиниці об'єкту нерухомості.]
-	(* <- lang_uk;; *);;
 
 equipment_property_type
 <- sc_node_class;

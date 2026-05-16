@@ -229,19 +229,12 @@ procedural_element
 
 sc_node_class -> phase;;
 phase
-=> nrel_main_idtf:
+=> nrel_idtf:
 	[атомарный процедурный элемент]
 	(* <- lang_ru;; *);
 	[atomic procedural element]
 	(* <- lang_en;; *);
 	[атомарний процедурний елемент]
-	(* <- lang_uk;; *);
-=> nrel_idtf:
-	[фаза]
-	(* <- lang_ru;; *);
-	[phase]
-	(* <- lang_en;; *);
-	[етап]
 	(* <- lang_uk;; *);
 <- rrel_key_sc_element:
 	...

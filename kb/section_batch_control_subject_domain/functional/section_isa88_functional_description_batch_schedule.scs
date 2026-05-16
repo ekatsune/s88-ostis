@@ -199,6 +199,23 @@ description
 	[Описує параметр або використання параметра.]
 	(* <- lang_uk;; *);;
 	
+engineering_units
+<- sc_node_class;
+=> nrel_main_idtf:
+    [инженерные единицы]
+    (* <- lang_ru;; *);
+    [engineering units]
+    (* <- lang_en;; *);
+    [інженерні одиниці]
+    (* <- lang_uk;; *);
+=> nrel_summary:
+    [Определяет инженерные единицы измерения физической величины, используемой в любом контексте управления серийным производством.]
+    (* <- lang_ru;; *);
+    [Defines the engineering units of measurement for a physical quantity used in any batch control context.]
+    (* <- lang_en;; *);
+    [Визначає інженерні одиниці вимірювання фізичної величини, що використовується в будь-якому контексті керування серійним виробництвом.]
+    (* <- lang_uk;; *);
+
 value
 <- sc_node_class;
 => nrel_main_idtf:

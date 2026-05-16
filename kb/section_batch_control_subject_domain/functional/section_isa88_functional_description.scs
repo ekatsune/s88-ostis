@@ -23,22 +23,6 @@ section_isa88_functional_description_production_information
 section_isa88_exchange_information
 };;
 
-engineering_units
-<- sc_node_class;
-=> nrel_main_idtf:
-    [инженерные единицы]
-    (* <- lang_ru;; *);
-    [engineering units]
-    (* <- lang_en;; *);
-    [інженерні одиниці]
-    (* <- lang_uk;; *);
-=> nrel_summary:
-    [Определяет инженерные единицы, если они применимы к NewValue.]
-    (* <- lang_ru;; *);
-    [Defines the engineering units, if any, that are appropriate for the NewValue.]
-    (* <- lang_en;; *);
-    [Визначає інженерні одиниці, якщо вони застосовні до нового значення.]
-    (* <- lang_uk;; *);;
 
 
 
