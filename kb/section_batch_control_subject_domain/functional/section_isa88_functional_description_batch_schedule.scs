@@ -214,7 +214,7 @@ engineering_units
     [Defines the engineering units of measurement for a physical quantity used in any batch control context.]
     (* <- lang_en;; *);
     [Визначає інженерні одиниці вимірювання фізичної величини, що використовується в будь-якому контексті керування серійним виробництвом.]
-    (* <- lang_uk;; *);
+    (* <- lang_uk;; *);;
 
 value
 <- sc_node_class;
